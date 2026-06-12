@@ -1,4 +1,4 @@
-﻿:root {
+:root {
     --bg: #faf8f4;
     --surface: #ffffff;
     --surface2: #f0ece4;
@@ -401,6 +401,7 @@
   .project-item:nth-child(1) { border-left-color: #6db33f; } /* We Game Player */
   .project-item:nth-child(2) { border-left-color: #4479a1; } /* 솟대쟁이 */
   .project-item:nth-child(3) { border-left-color: #c57a00; } /* around_you */
+  .project-item:nth-child(4) { border-left-color: #1a4f8c; } /* 블루허브 */
   .project-item:last-child { border-bottom: none; }
   .project-header {
     display: grid;
@@ -432,6 +433,7 @@
   .project-item:nth-child(1) .project-name { background: rgba(109,179,63,0.2); }
   .project-item:nth-child(2) .project-name { background: rgba(68,121,161,0.2); }
   .project-item:nth-child(3) .project-name { background: rgba(197,122,0,0.2); }
+  .project-item:nth-child(4) .project-name { background: rgba(26,79,140,0.18); }
   .project-name .dot {
     width: 8px; height: 8px;
     border-radius: 50%;
@@ -544,6 +546,9 @@
   .project-chip .fa-js { color: #f7df1e; }
   .project-chip .fa-mobile-screen { color: #02569b; }
   .project-chip .fa-android { color: #3ddc84; }
+  .project-chip .fa-html5 { color: #e34f26; }
+  .project-chip .fa-css3-alt { color: #1572b6; }
+  .project-chip .fa-python { color: #3776ab; }
   .project-link {
     display: inline-flex;
     align-items: center;
